@@ -14,7 +14,7 @@ public class ZaleniumTest {
 	public void zaleniumtest() throws Exception {
 		System.out.println("Zalenium test executing with zalenium");
 		DesiredCapabilities cap = new DesiredCapabilities();
-		cap.setBrowserName(BrowserType.FIREFOX);
+		cap.setBrowserName(BrowserType.CHROME);
 		WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444//wd/hub"), cap);
 		driver.manage().window().maximize();
 		driver.get("http://gmail.com");
