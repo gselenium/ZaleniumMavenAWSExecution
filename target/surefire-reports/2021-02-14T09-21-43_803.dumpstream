@@ -1,0 +1,4 @@
+# Created at 2021-02-14T09:21:50.523
+Boot Manifest-JAR contains absolute paths in classpath 'D:\SeleniumSoftwares\Workspace\ZaleniumMavenAWSExecution\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
